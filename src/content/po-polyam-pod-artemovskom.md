@@ -5,7 +5,7 @@ author: [Бикукле]
 tags: ['Покатушки']
 image: img/snagoff-19-10-2023-0003.jpg
 date: '2020-06-20'
-draft: true
+draft: false
 excerpt: Субботняя покатушка по полям под Артёмовском
 comments: true
 ---

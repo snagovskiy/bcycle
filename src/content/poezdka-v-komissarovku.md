@@ -5,7 +5,7 @@ author: [Бикукле]
 tags: ['Покатушки']
 image: img/komissarovka-1.jpg
 date: '2019-09-27'
-draft: true
+draft: false
 excerpt:  Когда поехал в Комиссаровку, но не взял с собой удочку.
 comments: true
 ---
