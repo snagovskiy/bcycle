@@ -53,6 +53,7 @@ function IndexPage(props: IndexProps) {
         <html lang={config.lang} />
         <title>{config.title}</title>
         <meta name="description" content={config.description} />
+        <meta name="yandex-verification" content="5f35a850065a4f26" />
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={config.title} />

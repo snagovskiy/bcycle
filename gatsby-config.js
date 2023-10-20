@@ -7,12 +7,14 @@ module.exports = {
     description: 'Велосипедный мир',
     siteUrl: 'https://bcycle.pages.dev', // full path to blog - no ending slash
   },
+  
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml.name',
   },
   plugins: [
     'gatsby-plugin-sitemap',
     'gatsby-plugin-image',
+    'gatsby-plugin-robots-txt',
     {
       resolve: 'gatsby-plugin-sharp',
       options: {
@@ -124,7 +126,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: 'UA-XXXX-Y',
+        trackingId: 'G-FHTLD9R98M',
         // Puts tracking script in the head instead of the body
         head: true,
         // IP anonymization for GDPR compliance
@@ -138,6 +140,27 @@ module.exports = {
         // Determines how often site speed tracking beacons will be sent
         siteSpeedSampleRate: 10,
       },
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://bcycle.pages.dev',
+        sitemap: 'https://bcycle.pages.dev/sitemap-index.xml',
+        policy: [{userAgent: '*', allow: '/'}]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-yandex-metrica`,
+      options: {
+        trackingId: "95317130",
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        trackHash: true,
+
+        // Detailed recordings of user activity on the site: mouse movement, scrolling, and clicks.
+        webvisor: true,
+      }
     },
   ],
 };
