@@ -5,6 +5,7 @@
   "private": true,
   "author": "Scott Cooper <scttcper@gmail.com>",
   "license": "MIT",
+  "legacy-peer-deps": true,
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
