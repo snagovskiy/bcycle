@@ -149,18 +149,6 @@ module.exports = {
         policy: [{userAgent: '*', allow: '/'}]
       }
     },
-    {
-      resolve: `gatsby-plugin-yandex-metrica`,
-      options: {
-        trackingId: "95317130",
-        clickmap: true,
-        trackLinks: true,
-        accurateTrackBounce: true,
-        trackHash: true,
-
-        // Detailed recordings of user activity on the site: mouse movement, scrolling, and clicks.
-        webvisor: true,
-      }
-    },
+    
   ],
 };
