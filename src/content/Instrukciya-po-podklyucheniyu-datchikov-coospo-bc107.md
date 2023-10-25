@@ -1,7 +1,7 @@
 ---
 title: Инструкция по подключению датчиков Coospo bc107
 excerpt: Разбираем быструю настройку Coospo bc107
-image: /img/coospobc107.jpg
+image: /img/coospo_2.jpg
 tags:
   - Инструкция
   - Coospo
