@@ -60,6 +60,10 @@ export default defineConfig({
             name: 'image',
             label: 'Картинка поста',
             ui: {
+              format(value) {
+                //add leading slash to value if it doesnt exist
+                return value.startsWith("/") ? value : `/${value}`;
+              },
               parse(value) {
                 //remove leading slash if it exists
                 return value.startsWith("/") ? value.slice(1) : value;
