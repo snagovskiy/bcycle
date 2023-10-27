@@ -1,7 +1,7 @@
 ---
 title: Мой новый велосипед
 excerpt: Первый взгляд
-image: /img/photo_2023-10-27_14-35-13.jpg
+image: img/photo_2023-10-27_14-35-13.jpg
 tags:
   - Велосипед
 author:
