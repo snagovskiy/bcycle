@@ -1,7 +1,7 @@
 ---
 title: Тест
 excerpt: Тестовое поле
-image: /img/alessio-soggetti-JQGGf6OuIdQ-unsplash.jpg
+image: /img/demo4.jpg
 tags:
   - тест
 author:
