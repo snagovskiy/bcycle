@@ -1,7 +1,7 @@
 ---
 title: Тест
 excerpt: Тестовое поле
-image: /img/demo4.jpg
+image: /img/coospo_2.jpg
 tags:
   - тест
 author:
