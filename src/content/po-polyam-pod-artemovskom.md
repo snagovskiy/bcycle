@@ -1,7 +1,7 @@
 ---
 title: По полям под Артёмовском.
 excerpt: Субботняя покатушка по полям под Артёмовском
-image: /img/snagoff-19-10-2023-0003.jpg
+image: img/snagoff-19-10-2023-0003.jpg
 tags:
   - Покатушки
 author:
