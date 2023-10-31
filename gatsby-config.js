@@ -120,7 +120,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-postcss',
       options: {
-        postCssPlugins: [require('postcss-color-function'), require('cssnano')()],
+        postCssPlugins: [require('cssnano')()],
       },
     },
     {
@@ -148,6 +148,14 @@ module.exports = {
         sitemap: 'https://bcycle.pages.dev/sitemap-index.xml',
         policy: [{userAgent: '*', allow: '/'}]
       }
+    },
+    // gatsby-plugin-cloudflare-web-analytics
+    {
+      resolve: `gatsby-plugin-cloudflare-web-analytics`,
+      options: {
+        // You need to provide your site token. You get this from the Cloudflare dashboard
+        token: '174f53f3d8d24e25b0be103d78fbaca0',        
+      },
     },
     
   ],
