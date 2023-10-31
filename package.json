@@ -16,7 +16,6 @@
   "dependencies": {
     "@emotion/react": "11.11.1",
     "@emotion/styled": "11.11.0",
-    "@tinacms/cli": "^1.5.31",
     "cssnano": "6.0.1",
     "date-fns": "2.30.0",
     "emotion": "11.0.0",
@@ -54,8 +53,7 @@
     "react-emotion": "10.0.0",
     "react-helmet": "6.1.0",
     "reading-time": "1.5.0",
-    "rehype-react": "7.2.0",
-    "tinacms": "^1.5.22"
+    "rehype-react": "7.2.0"
   },
   "devDependencies": {
     "@types/lodash-es": "4.17.7",
