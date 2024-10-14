@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: 'Бикукле',
     description: 'Велосипедный мир',
-    siteUrl: 'https://bcycle.pages.dev', // full path to blog - no ending slash
+    siteUrl: 'https://bcycle.netlify.app', // full path to blog - no ending slash
   },
   
   mapping: {
@@ -126,8 +126,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://bcycle.pages.dev',
-        sitemap: 'https://bcycle.pages.dev/sitemap-index.xml',
+        host: 'https://bcycle.netlify.app',
+        sitemap: 'https://bcycle.netlify.app/sitemap-index.xml',
         policy: [{userAgent: '*', allow: '/'}]
       }
     },
